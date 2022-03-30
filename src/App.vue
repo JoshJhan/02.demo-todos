@@ -33,8 +33,9 @@ export default {
         { id: 1, task: "周一早晨9點開會", done: false },
         { id: 2, task: "周一晚上8點聚餐", done: false },
         { id: 3, task: "準備週三晚上的演講", done: true },
+        { id: 4, task: "準備周末出遊", done: false },
       ],
-      nextId: 4, // 下一個可用ID
+      nextId: 5, // 下一個可用ID
       activeBtnIndex: 0, // tab: 0(全部);1(已完成);2(未完成)
     };
   },
